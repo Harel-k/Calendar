@@ -1,4 +1,4 @@
-import { today } from "./date.js";
+import { today } from "date.js";
 
 export function initUrl() {
   let selectedView = getUrlView();
