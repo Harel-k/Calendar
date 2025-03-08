@@ -1,4 +1,4 @@
-import { initToaster } from "./toaster.js";
+import { initToaster } from "toaster.js";
 
 export function initNotifications() {
   const toaster = initToaster(document.body);
