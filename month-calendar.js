@@ -1,6 +1,6 @@
-import { generateMonthCalendarDays, today, isTheSameDay } from "./date.js";
-import { isEventAllDay, eventStartsBefore } from "./event.js";
-import { initEventList } from "./event-list.js";
+import { generateMonthCalendarDays, today, isTheSameDay } from "date.js";
+import { isEventAllDay, eventStartsBefore } from "event.js";
+import { initEventList } from "event-list.js";
 
 const calendarTemplateElemenent = document.querySelector("[data-template='month-calendar']");
 const calendarDayTemplateElement = document.querySelector("[data-template='month-calendar-day']");
