@@ -1,4 +1,4 @@
-import { initDialog } from "./dialog.js";
+import { initDialog } from "dialog.js";
 
 export function initEventDeleteDialog() {
   const dialog = initDialog("event-delete");
