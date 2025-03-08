@@ -1,6 +1,6 @@
 const eventTemplateElement = document.querySelector("[data-template='event']");
 
-const dateFormatter = new Intl.DateTimeFormat("he-IL", {
+const dateFormatter = new Intl.DateTimeFormat("en-US", {
   hour: "numeric",
   minute: "numeric"
 });
