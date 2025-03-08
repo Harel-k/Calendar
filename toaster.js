@@ -1,4 +1,4 @@
-import { waitUntilAnimationsFinish } from "./animation.js";
+import { waitUntilAnimationsFinish } from "animation.js";
 
 export function initToaster(parent) {
   const toasterElement = document.createElement("div");
