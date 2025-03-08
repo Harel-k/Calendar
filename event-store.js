@@ -1,4 +1,4 @@
-import { isTheSameDay } from "./date.js";
+import { isTheSameDay } from "date.js";
 
 export function initEventStore() {
   document.addEventListener("event-create", (event) => {
