@@ -1,4 +1,4 @@
-import { getUrlDate } from "./url.js";
+import { getUrlDate } from "url.js";
 
 export function initEventCreateButtons() {
   const buttonElements = document.querySelectorAll("[data-event-create-button]");
