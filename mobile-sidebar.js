@@ -1,4 +1,4 @@
-import { initDialog } from "./dialog.js";
+import { initDialog } from "dialog.js";
 
 export function initMobileSidebar() {
   const dialog = initDialog("mobile-sidebar");
