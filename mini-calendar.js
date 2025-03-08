@@ -3,7 +3,7 @@ import { getUrlDate } from "./url.js";
 
 const calendarDayListItemTemplateElement = document.querySelector("[data-template='mini-calendar-day-list-item']");
 
-const dateFormatter = new Intl.DateTimeFormat("he-IL", {
+const dateFormatter = new Intl.DateTimeFormat("en-US", {
   month: 'long',
   year: 'numeric'
 });
