@@ -1,6 +1,6 @@
-import { generateWeekDays, isTheSameDay, today } from "./date.js";
-import { isEventAllDay, eventStartsBefore, eventEndsBefore, initDynamicEvent, eventCollidesWith, adjustDynamicEventMaxLines } from "./event.js";
-import { initEventList } from "./event-list.js";
+import { generateWeekDays, isTheSameDay, today } from "date.js";
+import { isEventAllDay, eventStartsBefore, eventEndsBefore, initDynamicEvent, eventCollidesWith, adjustDynamicEventMaxLines } from "event.js";
+import { initEventList } from "event-list.js";
 
 const calendarTemplateElement = document.querySelector("[data-template='week-calendar']");
 const calendarDayOfWeekTemplateElement = document.querySelector("[data-template='week-calendar-day-of-week']");
