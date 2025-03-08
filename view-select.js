@@ -1,4 +1,4 @@
-import { getUrlView } from "./url.js";
+import { getUrlView } from "url.js";
 
 export function initViewSelect() {
   const viewSelectElement = document.querySelector("[data-view-select]");
