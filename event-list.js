@@ -1,4 +1,4 @@
-import { initStaticEvent } from "./event.js";
+import { initStaticEvent } from "event.js";
 
 const eventListItemTemplateElement = document.querySelector("[data-template='event-list-item']");
 
