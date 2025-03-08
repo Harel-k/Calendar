@@ -1,4 +1,4 @@
-import { validateEvent, generateEventId } from "./event.js";
+import { validateEvent, generateEventId } from "event.js";
 
 export function initEventForm(toaster) {
   const formElement = document.querySelector("[data-event-form]");
