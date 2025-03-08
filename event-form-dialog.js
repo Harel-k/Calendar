@@ -1,6 +1,6 @@
-import { initDialog } from "./dialog.js";
-import { initEventForm } from "./event-form.js";
-import { initToaster } from "./toaster.js";
+import { initDialog } from "dialog.js";
+import { initEventForm } from "event-form.js";
+import { initToaster } from "toaster.js";
 
 export function initEventFormDialog() {
   const dialog = initDialog("event-form");
