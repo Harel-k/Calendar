@@ -1,5 +1,5 @@
-import { today, addDays, addMonths, subtractDays, subtractMonths } from "./date.js";
-import { getUrlDate, getUrlView } from "./url.js";
+import { today, addDays, addMonths, subtractDays, subtractMonths } from "date.js";
+import { getUrlDate, getUrlView } from "url.js";
 
 const dateFormatter = new Intl.DateTimeFormat("en-US", {
   month: "long",
