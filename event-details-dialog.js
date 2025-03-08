@@ -1,5 +1,5 @@
-import { initDialog } from "./dialog.js";
-import { eventTimeToDate } from "./event.js";
+import { initDialog } from "dialog.js";
+import { eventTimeToDate } from "event.js";
 
 const eventDateFormatter = new Intl.DateTimeFormat("en-US", {
   weekday: 'short',
@@ -8,7 +8,7 @@ const eventDateFormatter = new Intl.DateTimeFormat("en-US", {
   year: 'numeric'
 });
 
-const eventTimeFormatter = new Intl.DateTimeFormat("en-US", {
+const eventTimeFormatter = new Intl.DateTimeFormat("he-IL", {
   hour: 'numeric',
   minute: 'numeric'
 });
