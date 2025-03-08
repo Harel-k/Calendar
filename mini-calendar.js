@@ -1,9 +1,9 @@
-import { today, subtractMonths, addMonths, generateMonthCalendarDays, isTheSameDay } from "./date.js";
+import { today, subtractMonths, addMonths, generateMonthCalendarDays, isTheSameDay } from "date.js";
 import { getUrlDate } from "./url.js";
 
 const calendarDayListItemTemplateElement = document.querySelector("[data-template='mini-calendar-day-list-item']");
 
-const dateFormatter = new Intl.DateTimeFormat("en-US", {
+const dateFormatter = new Intl.DateTimeFormat("he-IL", {
   month: 'long',
   year: 'numeric'
 });
