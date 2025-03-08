@@ -8,7 +8,7 @@ const eventDateFormatter = new Intl.DateTimeFormat("en-US", {
   year: 'numeric'
 });
 
-const eventTimeFormatter = new Intl.DateTimeFormat("he-IL", {
+const eventTimeFormatter = new Intl.DateTimeFormat("en-US", {
   hour: 'numeric',
   minute: 'numeric'
 });
